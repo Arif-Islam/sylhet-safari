@@ -10,7 +10,7 @@ const Services = () => {
     },[]);
 
     return (
-        <div className='bg-emerald-50'>
+        <div className='bg-emerald-50 pb-10'>
             <h1 className='text-center font-semibold text-2xl text-emerald-700 pt-14 pb-2 border-b-2 border-emerald-700 mb-20'>Sylhet Popular Tours</h1>
             {
                 tours.map(tour => <Tour 

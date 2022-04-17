@@ -4,41 +4,41 @@
         "name": "Tanguar Haor Tour",
         "price": 3000,
         "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
-        "image": "/public/assets/tangua.jpg"
+        "image": "assets/tangua.jpg"
     },
     {
         "id": 2,
         "name": "Shada Pathor Tour",
         "price": 1500,
         "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
-        "image": "/public/assets/tangua.jpg"
+        "image": "assets/shada pathor.jpg"
     },
     {
         "id": 3,
         "name": "Jafflong Tour",
         "price": 1200,
         "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
-        "image": "/public/assets/tangua.jpg"
+        "image": "assets/jafflong.jpg"
     },
     {
         "id": 4,
         "name": "Sreemongol Tour",
         "price": 5000,
         "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
-        "image": "/public/assets/tangua.jpg"
+        "image": "assets/Sreemangal.jpg"
     },
     {
         "id": 5,
         "name": "Bichnakandi Tour",
         "price": 1500,
         "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
-        "image": "/public/assets/tangua.jpg"
+        "image": "assets/Bisnakandi 2.jpg"
     },
     {
         "id": 6,
         "name": "Ratargul Tour",
         "price": 1200,
         "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
-        "image": "/public/assets/ratargul.jpg"
+        "image": "assets/ratargul.jpg"
     }
 ]
