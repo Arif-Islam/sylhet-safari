@@ -11,7 +11,7 @@ const Navbar = () => {
     const [showNav, setShowNav] = useState(false);
     return (
         <div className='bg-emerald-700'>
-            <div className='md:flex items-center justify-between w-full md:w-11/12 2xl:w-4/5 mx-auto sticky top-0 z-20'>
+            <div className='md:flex items-center justify-between w-full md:w-11/12 lg:w-4/5 2xl:w-3/4 mx-auto sticky top-0 z-20'>
                 <div className='flex justify-between items-center w-4/5 mx-auto'>
                     <Link to='/home'>
                         <img className='w-24' src={logo3} alt="site logo" />
