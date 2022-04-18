@@ -18,7 +18,7 @@ const Login = () => {
                     <input className='bg-emerald-700  font-medium text-stone-100 rounded h-10 hover:cursor-pointer hover:bg-emerald-600' type="submit" value="Log In" />
                 </form>
                 <div className='text-emerald-700 pt-3 font-medium'>
-                    <Link to='/login'>Don't have an account?</Link>
+                    <Link to='/signup'>Don't have an account?</Link>
                 </div>
                 <div className='h-14'>
                     <p></p>
