@@ -28,7 +28,7 @@ const Navbar = () => {
                     }
                 </div>
                 <div className={(showNav ? "top-20" : "-top-full") + " fixed md:static md:flex bg-emerald-700 h-[230px] md:h-auto rounded w-full space-y-3 md:space-y-0 items-center md:w-auto md:space-x-5 transition-top duration-500 ease-in-out uppercase font-semibold text-stone-200 text-center"}>
-                    <div className='pt-3 md:pt-0 '>
+                    <div className='pt-3 md:pt-0 hover:text-lime-400'>
                         <NavLink to='/'>Home</NavLink>
                     </div>
                     <div className='hover:text-lime-400'>

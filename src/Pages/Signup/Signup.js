@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../images/logo_3-removebg-preview.png';
 import Navbar from '../../Shared/Navbar/Navbar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGoogle } from '@fortawesome/free-solid-svg-icons';
 import { BsGoogle } from "react-icons/bs";
 
 const Signup = () => {
@@ -19,7 +17,7 @@ const Signup = () => {
                     <input className='w-80 h-12 bg-gray-100 rounded pl-4 text-stone-700 focus:outline-none' type="email" name="email" id="" placeholder='Email' />
                     <input className='w-80 h-12 bg-gray-100 rounded pl-4 text-stone-700 focus:outline-none' type="password" name="password" id="" placeholder='Password' />
                     <input className='w-80 h-12 bg-gray-100 rounded pl-4 text-stone-700 focus:outline-none' type="password" name="confirmPassword" id="" placeholder='Confirm Password' />
-                    <input className='bg-emerald-700  font-medium text-stone-200 rounded h-10 hover:cursor-pointer hover:bg-emerald-600' type="submit" value="Sign Up" />
+                    <input className='bg-emerald-700  font-medium text-stone-100 rounded h-10 hover:cursor-pointer hover:bg-emerald-600' type="submit" value="Sign Up" />
                 </form>
                 <div className='text-emerald-700 pt-3 font-medium'>
                     <Link to='/login'>Already have an account</Link>
