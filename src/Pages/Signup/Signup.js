@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../images/logo_3-removebg-preview.png';
 import Navbar from '../../Shared/Navbar/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGoogle } from '@fortawesome/free-solid-svg-icons';
+import { BsGoogle } from "react-icons/bs";
 
 const Signup = () => {
     return (
@@ -9,7 +12,7 @@ const Signup = () => {
             <Navbar></Navbar>
             <div className='flex items-center justify-center mt-10 flex-col'>
                 <div className='mb-4'>
-                    <img className='w-52' src={logo} alt="" />
+                    <img className='w-48' src={logo} alt="" />
                 </div>
                 <form className='flex flex-col space-y-5'>
                     <input className='w-80 h-12 bg-gray-100 rounded pl-4 text-stone-700 focus:outline-none' type="text" name="text" id="" placeholder='Name' />
@@ -24,7 +27,15 @@ const Signup = () => {
                 <div className='h-14'>
                     <p></p>
                 </div>
-                <hr className='w-80 bg-emerald-700' />
+                <hr className='w-80 ' />
+                <div className='flex bg-emerald-700 items-center mt-6 hover:cursor-pointer hover:bg-emerald-600 rounded-sm'>
+                    <div className='text-stone-100 p-2 rounded-full'>
+                        <BsGoogle className='w-6 h-6 '></BsGoogle>
+                    </div>
+                    <div className='pr-2'>
+                        <p className='text-stone-100 font-normal'>Sign up with Google</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
