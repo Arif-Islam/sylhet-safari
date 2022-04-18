@@ -43,7 +43,7 @@ const Login = () => {
             await sendPasswordResetEmail(email);
             toast('Sent email');
         }
-        else{
+        else {
             toast('Please enter your email address!');
         }
     }

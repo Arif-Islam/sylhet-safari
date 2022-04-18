@@ -1,11 +1,6 @@
 .active {
-    /* text-decoration: underline; */
-    /* background-color: white;
-    padding: 5px; */
     color: rgb(163 230 53);
-    /* border-bottom: 2px solid rgb(163 230 53);
-    transition: border-bottom 2s ease-in-out .2s; */
-    /* border-radius: 2px; */
+    
 }
 
 .active:hover {
