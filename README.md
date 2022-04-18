@@ -1,6 +1,6 @@
 # Sylhet Safari
 
-Have a glance of the site [Click here](https://github.com/facebook/create-react-app).
+Have a glance of the site [Sylhet Safari](https://sylhet-safari.web.app/).
 
 <h2>Features and Functionalities of Sylhet Safari are given down below: </h2>
 <ul>
