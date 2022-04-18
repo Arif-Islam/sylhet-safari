@@ -4,14 +4,25 @@ import logo1 from '../../images/logo-removebg-preview.png';
 import logo from '../../images/logo.png';
 import logo2 from '../../images/logo 2.png';
 import logo3 from '../../images/logo_2-removebg-preview.png';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { XIcon, MenuIcon } from '@heroicons/react/solid'
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
+import { signOut } from 'firebase/auth';
 
 const Navbar = () => {
     const [showNav, setShowNav] = useState(false);
+    const [user] = useAuthState(auth);
+    console.log(user);
+    const navigate = useNavigate();
+    const handleSignOut = () => {
+        signOut(auth);
+        navigate('/login');
+    }
+
     return (
-        <div className='bg-emerald-700'>
-            <div className='md:flex items-center justify-between w-full md:w-11/12 lg:w-4/5 2xl:w-3/4 mx-auto sticky top-0 z-20'>
+        <div className='bg-emerald-700 sticky top-0 z-20'>
+            <div className='md:flex items-center justify-between w-full md:w-11/12 lg:w-4/5 2xl:w-3/4 mx-auto '>
                 <div className='flex justify-between items-center w-4/5 mx-auto'>
                     <Link to='/home'>
                         <img className='w-24' src={logo3} alt="site logo" />
@@ -40,13 +51,25 @@ const Navbar = () => {
                     <div className='hover:text-lime-400'>
                         <NavLink to='/about'>About</NavLink>
                     </div>
-                    <div className='hover:text-lime-400'>
-                        <NavLink to='/login'>Login</NavLink>
-                    </div>
-                    <div className='space-x-1 rounded-full md:bg-green-900 md:hover:bg-green-800 md:px-6 md:py-2 font-medium text-stone-100'>
-                        <NavLink to='/signup'>Sign</NavLink>
-                        <NavLink to='/signup'>up</NavLink>
-                    </div>
+                    {
+                        user ? '' :
+                            <div className='hover:text-lime-400'>
+                                <NavLink to='/login'>Login</NavLink>
+                            </div>
+                    }
+                    {
+                        user ? <div onClick={handleSignOut} className='space-x-1 rounded-full md:bg-green-900 md:hover:bg-green-800 md:px-6 md:py-2 font-medium text-stone-100'>
+                            <NavLink to='/login'>Sign</NavLink>
+                            <NavLink to='/login'>out</NavLink>
+                        </div> :
+                            <div className='space-x-1 rounded-full md:bg-green-900 md:hover:bg-green-800 md:px-6 md:py-2 font-medium text-stone-100'>
+                                <NavLink to='/signup'>Sign</NavLink>
+                                <NavLink to='/signup'>up</NavLink>
+                            </div>
+                    }
+
+
+
 
                 </div>
 

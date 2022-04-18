@@ -9,7 +9,6 @@ import './Home.css';
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Carousel></Carousel>
             <Description></Description>
             <Services></Services>
