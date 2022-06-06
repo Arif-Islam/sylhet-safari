@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../../../Shared/Footer/Footer';
-import Navbar from '../../../Shared/Navbar/Navbar';
-import Carousel from '../Carousel/Carousel';
+import Banner from '../Banner/Banner';
 import Description from '../Description/Description';
 import Services from '../Services/Services';
 import './Home.css';
@@ -9,7 +8,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div>
-            <Carousel></Carousel>
+            <Banner></Banner>
             <Description></Description>
             <Services></Services>
             <Footer></Footer>

@@ -5,7 +5,7 @@ import logo from '../../images/logo.png';
 import logo2 from '../../images/logo 2.png';
 import logo3 from '../../images/logo_2-removebg-preview.png';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { XIcon, MenuIcon } from '@heroicons/react/solid'
+import { XIcon, MenuIcon } from '@heroicons/react/solid';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';

@@ -24,21 +24,21 @@
         "id": 4,
         "name": "Sreemongol Tour",
         "price": 5000,
-        "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
+        "description": "Sreemongol is often referred to as the tea capital of Bangladesh and is famous for its tea fields. Lawachara national park, Madhabpur lake, Hotel grand sultan are the most visited places in Sreemongol.",
         "image": "assets/Sreemangal.jpg"
     },
     {
         "id": 5,
         "name": "Bichnakandi Tour",
         "price": 1500,
-        "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
+        "description": "Bichnakandi is located in Rustampur union of Gowainghat Upazila of Sylhet. Bichnakandi is a stone quarry. The rainy season is the ideal time for traveling to Bisanakandi due to the abundance flow of water.",
         "image": "assets/Bisnakandi 2.jpg"
     },
     {
         "id": 6,
         "name": "Ratargul Tour",
         "price": 1200,
-        "description": "Tanguar Haor is in Sumangonj disctrict of Sylhet Division. One can enjoy in the long Hoar floating on the boat all day and night. I can make sure that you get the 100 percent feel while visiting this place.",
+        "description": "Ratargul is a reserved wetland for the tourists. Best part is rowing through the swamp forest and experiencing the mighty view from the watch tower while listening to the local folklores and folk songs from the boatman.",
         "image": "assets/ratargul.jpg"
     }
 ]
